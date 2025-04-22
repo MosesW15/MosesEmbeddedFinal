@@ -1,8 +1,9 @@
+# 1) Ignore everything
+*
 
-/*
-
+# 2) Except this file
 !.gitignore
 
-!/Core/
-
-/Core/**
+# 3) Except the Core directory and everything inside it
+!Core/
+!Core/**
