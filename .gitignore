@@ -3,8 +3,6 @@
 
 !.gitignore
 
-
 !/Core/
-
 
 /Core/**
