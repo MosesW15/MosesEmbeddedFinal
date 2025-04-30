@@ -66,7 +66,7 @@ int LCD_First_Screen()
 	
 	while (1) {
 		LCD_DisplayChar(0,50,'1');
-		LCD_DisplayChar(5,50,'   ');
+//		LCD_DisplayChar(5,50,'   ');
 		LCD_DisplayChar(10,50,'P');
 		LCD_DisplayChar(20,50,'l');
 		LCD_DisplayChar(30,50,'a');
@@ -77,7 +77,7 @@ int LCD_First_Screen()
 		LCD_Draw_Circle_Fill(160,60,50,LCD_COLOR_BLUE);
 	
 		LCD_DisplayChar(0,230,'2');
-		LCD_DisplayChar(5,230,'   ');
+//		LCD_DisplayChar(5,230,'   ');
 		LCD_DisplayChar(10,230,'P');
 		LCD_DisplayChar(20,230,'l');
 		LCD_DisplayChar(30,230,'a');
@@ -123,6 +123,7 @@ LCD_DisplayChar(230, 140, '!');
 			if(x >= 110 && x <= 210 && y >= 10 && y <= 110){
 				return 2;
 			}
+			HAL_Delay(1000);
 		}
 	}
 }
