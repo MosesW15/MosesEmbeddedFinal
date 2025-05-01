@@ -8,6 +8,7 @@
 #include "LCD_Driver.h"
 #include "stm32f4xx_hal.h"
 #include "gameplay.h"
+#include "final_screen.h"
 #include <stdio.h>
 
 
@@ -21,6 +22,7 @@ void LCD_Visual_Demo(void);
 void LCD_Touch_Polling_Demo(void);
 
 int LCD_First_Screen();
+
 #endif // (COMPILE_TOUCH_FUNCTIONS == 1)
 
 #endif /* INC_APPLICATIONCODE_H_ */

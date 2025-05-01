@@ -124,6 +124,7 @@ int main(void)
     /* USER CODE END WHILE */
     uint8_t gameMode = LCD_First_Screen();
     runGameplay(gameMode);
+    LCD_Final_Screen();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
